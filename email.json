@@ -1,0 +1,15 @@
+{
+   "data":
+       {
+           "reportCategoryName":"flashreport",
+           "fileName": ["falshreport1","falshreport2"],
+           "Tomails": ["shashisridhar2@gmail.com","srinivas@hotelgreenpark.com","sivaprasad@hotelgreenpark.com","itmgr.hyd@marigoldhotels.com","sumanth@caratred.com","rambabu@caratred.com","shashisridhar2@gmail.com"],
+           "subject":"RPA Reports",
+           "Text":"flash reports from RPA. Please find the fallowing attachments"
+       }
+
+      
+    
+}
+
+

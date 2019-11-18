@@ -1,0 +1,34 @@
+version: 1
+disable_existing_loggers: False
+formatters:
+ simple:
+   format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+handlers:
+
+
+ postscheduler:
+   class: logging.FileHandler
+   level: DEBUG
+   formatter: simple
+   filename:  loggerfiles/schedulerlogger/scheduler.log
+
+ consoleschedule:
+   class: logging.StreamHandler
+   level: DEBUG
+   formatter: simple
+
+
+
+loggers:
+
+ postschedulers:
+   level: DEBUG
+   handlers: [postscheduler]
+   propagate: True
+
+
+
+ consoleschedulers:
+   level: DEBUG
+   handlers: [consoleschedule]
+   propagate: True
